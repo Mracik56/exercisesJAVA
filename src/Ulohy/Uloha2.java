@@ -1,4 +1,4 @@
-//2. Napíšte Java program, ktorý vypíše súčet dvoch čísel.
+package Ulohy;//2. Napíšte Java program, ktorý vypíše súčet dvoch čísel.
 //Údaje testu:
 //25 + 35
 //Očakávaný výstup :

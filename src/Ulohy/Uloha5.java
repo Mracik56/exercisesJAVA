@@ -1,4 +1,4 @@
-//5. Napíšte Java program, ktorý použije dve čísla ako vstup a zobrazí súčin dvoch čísel.
+package Ulohy;//5. Napíšte Java program, ktorý použije dve čísla ako vstup a zobrazí súčin dvoch čísel.
 //Údaje testu:
 //Zadajte prvé číslo: 25
 //Zadajte druhé číslo: 5

@@ -1,4 +1,4 @@
-//7. Napíšte Java program, ktorý vezme číslo ako vstup a vypíše svoju tabuľku
+package Ulohy;//7. Napíšte Java program, ktorý vezme číslo ako vstup a vypíše svoju tabuľku
 //násobenia až do 10.
 //Testovacie údaje:
 //Zadajte číslo: 8

@@ -1,4 +1,4 @@
-//11. Napíšte Java program na výpočet a výpis plochy a obvodu kruhu.
+package Ulohy;//11. Napíšte Java program na výpočet a výpis plochy a obvodu kruhu.
 //Testovacie údaje:
 //Polomer = 7,5
 //Očakávaný výstupný

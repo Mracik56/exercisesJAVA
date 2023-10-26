@@ -1,4 +1,4 @@
-//14. Napíšte Java program na vypísanie americkej vlajky na obrazovku.
+package Ulohy;//14. Napíšte Java program na vypísanie americkej vlajky na obrazovku.
 //Očakávaný výstup
 //* * * * * * ==================================
 //* * * * * ==================================

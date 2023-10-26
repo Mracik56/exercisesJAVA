@@ -1,4 +1,4 @@
-//10. Napíšte Java program na výpočet zadaného vzorca.
+package Ulohy;//10. Napíšte Java program na výpočet zadaného vzorca.
 //Špecifikovaný vzorec:
 //4,0 * (1 - (1,0/3) + (1,0/5) - (1,0/7) + (1,0/9) - (1,0/11))
 //Očakávaný výstup

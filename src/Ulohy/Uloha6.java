@@ -1,3 +1,5 @@
+package Ulohy;
+
 //6. Napíšte Java program, ktorý vypíše súčet (sčítanie), násobenie, odčítanie, delenie a zvyšok dvoch čísel.
 //Údaje testu:
 //Zadajte prvé číslo: 125

@@ -1,4 +1,4 @@
-//9. Napíšte Java program, ktorý vypočíta zadané výrazy a vypíše výstup.
+package Ulohy;//9. Napíšte Java program, ktorý vypočíta zadané výrazy a vypíše výstup.
 //Údaje testu:
 //((25,5 * 3,5 - 3,5 * 3,5) / (40,5 - 4,5))
 //Očakávaný výstup

@@ -1,4 +1,4 @@
-//1. Napíšte Java program, ktorý vypíše na obrazovku
+package Ulohy;//1. Napíšte Java program, ktorý vypíše na obrazovku
 // 'Ahoj Peter, chcem ti iba povedať, že mám rád Javu'
 // a potom vypíše svoje meno na samostatný riadok.
 //Očakávaný výstup :

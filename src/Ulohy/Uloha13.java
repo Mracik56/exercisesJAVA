@@ -1,4 +1,4 @@
-//13. Napíšte Java program na výpis plochy a obvodu obdĺžnika
+package Ulohy;//13. Napíšte Java program na výpis plochy a obvodu obdĺžnika
 //Údaje testu:
 //Šírka = 5,5 Výška = 8,5
 //Očakávaná výstupná

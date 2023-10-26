@@ -1,4 +1,4 @@
-//4. Napíšte program Java, ktorý vypíše výsledok nasledujúcich operácií.
+package Ulohy;//4. Napíšte program Java, ktorý vypíše výsledok nasledujúcich operácií.
 //Testovacie údaje:
 //a. -5 + 8 * 6
 //b. (55+9) % 9

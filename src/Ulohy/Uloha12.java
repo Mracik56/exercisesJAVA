@@ -1,4 +1,4 @@
-//12. Napíšte Java program, ktorý použije tri čísla ako vstup na výpočet a výpis priemeru čísel.
+package Ulohy;//12. Napíšte Java program, ktorý použije tri čísla ako vstup na výpočet a výpis priemeru čísel.
 
 import java.util.Scanner;
 public class Uloha12 {
