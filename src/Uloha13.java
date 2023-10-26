@@ -1,3 +1,10 @@
+//13. Napíšte Java program na výpis plochy a obvodu obdĺžnika
+//Údaje testu:
+//Šírka = 5,5 Výška = 8,5
+//Očakávaná výstupná
+//plocha je 5,6 * 8,5 = 47,60
+//Obvod je 2 * (5,6 + 8,5) = 28,20
+
 import java.text.DecimalFormat;
 public class Uloha13 {
     public static void main(String[] args) {

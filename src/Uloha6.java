@@ -1,3 +1,13 @@
+//6. Napíšte Java program, ktorý vypíše súčet (sčítanie), násobenie, odčítanie, delenie a zvyšok dvoch čísel.
+//Údaje testu:
+//Zadajte prvé číslo: 125
+//Zadajte druhé číslo: 24
+//Očakávaný výstup :
+//125 + 24 = 149
+//125 - 24 = 101
+//125 x 24 = 3000
+//125 / 24 = 5
+//125 mod 24 = 5
 public class Uloha6 {
     public static void main(String[] args) {
         int cislo1 = 125;
