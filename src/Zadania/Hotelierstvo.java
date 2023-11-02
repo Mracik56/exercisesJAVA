@@ -41,19 +41,20 @@ public class Hotelierstvo {
 
         long pocetNoci = ChronoUnit.DAYS.between(datumPrichodu, datumOdchodu);
 
-        if (typIzby.equals("jednolôžková")) {
-            cena = (cenaJED * pocetNoci) * pocetIzieb;
+        switch (typIzby) {
+            case "jednolôžková":
+                cena = (cenaJED * pocetNoci) * pocetIzieb;
+                break;
+            case "dvojlôžková":
+                cena = (cenaDVJ * pocetNoci) * pocetIzieb;
+                break;
+            case "apartmán":
+                cena = (cenaAP * pocetNoci) * pocetIzieb;
+                break;
+            default:
+                System.out.print("Zadali ste zlý typ izby!!!");
+                System.exit(0);
         }
-        else if (typIzby.equals("dvojlôžková")) {
-            cena = (cenaDVJ * pocetNoci) * pocetIzieb;
-        }
-        else if (typIzby.equals("apartmán")) {
-            cena = (cenaAP * pocetNoci) * pocetIzieb;
-        }
-        else {
-            System.out.print("Zadali ste zlý typ izby!!!");
-        }
-
 
         System.out.println("Typ izby: " + typIzby);
         System.out.println("Počet izieb: " + pocetIzieb);
