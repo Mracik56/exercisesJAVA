@@ -21,9 +21,9 @@ public class Hotelierstvo {
         double cenaDVJ = 75;
         double cenaAP = 100;
         double cena = 0;
-        double celkovaCena = 0;
-        boolean pokracovat = false;
 
+        System.out.print("Typ izby (jednolôžková/dvojlôžková/apartmán): ");
+        String typIzby = scanner.nextLine();
 
         System.out.print("Počet izieb: ");
         int pocetIzieb = scanner.nextInt();
@@ -41,29 +41,17 @@ public class Hotelierstvo {
 
         long pocetNoci = ChronoUnit.DAYS.between(datumPrichodu, datumOdchodu);
 
-
-        String typIzby = null;
-        for (int i = 1; i <= pocetIzieb; i++) {
-            System.out.print("Typ izby (jednolôžková/dvojlôžková/apartmán): ");
-            typIzby = scanner.nextLine();
-
-            while (pokracovat == false) {
-
-                if (typIzby.equals("jednolôžková")) {
-                    cena = cenaJED * pocetNoci;
-                    pokracovat = true;
-                } else if (typIzby.equals("dvojlôžková")) {
-                    cena = cenaDVJ * pocetNoci;
-                    pokracovat = true;
-                } else if (typIzby.equals("apartmán")) {
-                    cena = cenaAP * pocetNoci;
-                    pokracovat = true;
-                } else {
-                    System.out.print("Zadali ste zlý typ izby!!!");
-                }
-            }
-            pokracovat = false;
-            celkovaCena = celkovaCena + cena;
+        if (typIzby.equals("jednolôžková")) {
+            cena = (cenaJED * pocetNoci) * pocetIzieb;
+        }
+        else if (typIzby.equals("dvojlôžková")) {
+            cena = (cenaDVJ * pocetNoci) * pocetIzieb;
+        }
+        else if (typIzby.equals("apartmán")) {
+            cena = (cenaAP * pocetNoci) * pocetIzieb;
+        }
+        else {
+            System.out.print("Zadali ste zlý typ izby!!!");
         }
 
 
@@ -72,7 +60,7 @@ public class Hotelierstvo {
         System.out.println("Dátum príchodu: " + datumPrichodu);
         System.out.println("Dátum odchodu: " + datumOdchodu);
         System.out.println("Počet osôb: " + pocetOsob);
-        System.out.println("Celková cena: " + celkovaCena);
+        System.out.println("Celková cena: " + cena);
 
         scanner.close();
     }

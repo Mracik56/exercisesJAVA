@@ -20,9 +20,11 @@
 
 package Zadania;
 import java.util.Scanner;
+import java.util.Random;
 public class SprávaNP {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Random rand = new Random();
 
         System.out.print("Názov národného parku: ");
         String nazovParku = scanner.nextLine();
@@ -33,7 +35,7 @@ public class SprávaNP {
         System.out.print("Počet návštevníkov za rok: ");
         int pocetNavstevnikov = scanner.nextInt();
 
-        int pocetNavstevnikovHory = (int) (0.75 * pocetNavstevnikov);
+        int pocetNavstevnikovHory = rand.nextInt(pocetNavstevnikov);
         int pocetNavstevnikovUdolia = pocetNavstevnikov - pocetNavstevnikovHory;
         double priemerNavNaKm = pocetNavstevnikov / rozlohaParku;
 
